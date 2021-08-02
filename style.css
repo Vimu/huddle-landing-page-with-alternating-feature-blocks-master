@@ -117,7 +117,7 @@ button:hover{
 .cards-section .card .card-desc{
     padding-top: 40px;
 }
-.cards-section .card .card-desc h3{
+.cards-section .card .card-desc h2{
     margin-bottom: 25px;
 }
 .cards-section .card .card-desc p{
@@ -144,7 +144,7 @@ button:hover{
     padding: 50px auto 40px auto;
     box-shadow: rgb(78, 76, 76) 0px 0px 4px 0px, rgb(114, 112, 112) 0px 0px 4px 0px;
 }
-.commi-section .commi h3{
+.commi-section .commi h2{
     margin-bottom: 30px;
 }
 .commi-section .commi .commi-btn{
@@ -195,7 +195,7 @@ button:hover{
     justify-content: center;
     margin: 0 auto;
 }
-.footer-section .footer .social-media a{
+.footer-section .footer .social-media li{
     margin: 0 10px 25px 0;
     width: 30px;
     display: inline-block;
@@ -204,7 +204,7 @@ button:hover{
     border-radius: 50%;
     text-align: center;
 }
-.footer-section .footer .social-media a:hover{
+.footer-section .footer .social-media li:hover{
     color: var(--pink);
     border: 1px solid var(--pink);
 }
@@ -236,7 +236,6 @@ button:hover{
         cursor: pointer;
     }
     .hero-section .hero-header{
-        /* margin: 50px 80px 70px; */
         padding: 50px 80px 70px;
     }
     .hero-section .hero-header .hero-logo{
@@ -259,12 +258,12 @@ button:hover{
     }
     .hero-section .hero .hero-desc{
         text-align: left;  
-        margin: 100px 0 0 0;
+        margin: 70px 0 0 0;
         padding: 0;
     }
     .hero-section .hero .hero-desc h1{
         font-size: 2.5rem;
-        margin: 0 auto 45px;
+        margin: 0 auto 30px;
     }
     .hero-section .hero .hero-desc .hero-desc-btn{
         width: 280px;
@@ -273,7 +272,7 @@ button:hover{
     /* Card Section */
     .cards-section{
         padding-top: 50px;
-        padding-bottom: 110px;
+        padding-bottom: 2px;
     }
     .cards-section .card{
         flex-direction: row-reverse;
@@ -341,7 +340,7 @@ button:hover{
         padding: 0;
         justify-content: start;
     }
-    .footer-section .footer .social-media a{
+    .footer-section .footer .social-media li{
         font-size: 2rem;
         width: 50px;
         height: 50px;
