@@ -246,7 +246,7 @@ button:hover{
     .hero-section .hero{
         flex-direction: row;
         margin: 0 80px 0;
-        padding-bottom: 70px;
+        padding-bottom: 20px;
     }
     .hero-section .hero-header .hero-header-btn{
         height: 50px;
@@ -272,7 +272,7 @@ button:hover{
     }
     /* Card Section */
     .cards-section{
-        padding-top: 160px;
+        padding-top: 50px;
         padding-bottom: 110px;
     }
     .cards-section .card{
