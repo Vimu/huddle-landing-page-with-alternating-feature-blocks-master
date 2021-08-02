@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+    /* Colors */
+    --pink: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+    /* fonts */
+    --fonts-heading: 'Poppins', sans-serif;
+    --body-all-to-actions: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--body-all-to-actions);
+    font-weight: 400;
+}
+button{
+    font-family: var(--body-all-to-actions);
+    font-weight: 600;
+    border: none;
+    border-radius: 45px;
+    background-color: var(--pink);
+    color: white;
+    box-shadow: .8px .8px #adacac;
+}
+h1{
+    font-family: var(--fonts-heading);
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--Very-Pale-Cyan);
+}
+
+/* Hero Section */
+.hero-section{
+    background: url(./images/bg-hero-mobile.svg) var(--Very-Pale-Cyan);
+}
+.hero-section .hero-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 15px 90px;
+}
+.hero-section .hero-header .hero-logo{
+    height: 24px;
+    width: 106px;
+}
+.hero-section .hero-header .hero-header-btn{
+    height: 24px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: white;
+    color: var(--Very-Dark-Cyan);
+}
+.hero-section .hero{
+    display: flex;
+    flex-direction: column;
+}
+.hero-section .hero .hero-desc{
+    text-align: center;  
+    margin: 0 37.5px 60px;
+}
+.hero-section .hero .hero-desc-btn{
+    width: 250px;
+    height: 40px;
+}
+button:hover{
+    opacity: 0.6;
+}
+.hero-section .hero .hero-desc h1{
+    margin: 0 auto 35px;
+    line-height: 1.8;
+}
+.hero-section .hero .hero-desc p{
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+.hero-section .hero .hero-img{
+    padding-bottom: 40px;
+}
+.hero-section .hero .hero-img img{
+    width: 300px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* End Hero Section */
+/* Card Section */
+.cards-section{
+    margin: 60px 10px 120px;
+    background-color: white;
+}
+.cards-section .card{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    max-height: 500px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    box-shadow: #eee 0px 0px 8px 0px, #eee 0px 0px 4px 0px;
+}
+.cards-section .card .card-img img{
+    width: 265px;
+    height: 200px;
+}
+.cards-section .card .card-desc{
+    padding-top: 40px;
+}
+.cards-section .card .card-desc h3{
+    margin-bottom: 25px;
+}
+.cards-section .card .card-desc p{
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    line-height: 1.5;
+}
+    /* End Card Section */
+
+   /* Commiunity Section */
+.commi-section{
+    padding: 0 12px 0 ;
+}
+.commi-section .commi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    position: relative;
+    margin-bottom: -70px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px auto 40px auto;
+    box-shadow: rgb(78, 76, 76) 0px 0px 4px 0px, rgb(114, 112, 112) 0px 0px 4px 0px;
+}
+.commi-section .commi h3{
+    margin-bottom: 30px;
+}
+.commi-section .commi .commi-btn{
+    width: 200px;
+    height: 40px;
+}
+/* footer */
+.footer-section {
+    background-color: var(--Very-Dark-Cyan);
+    color: var(--Very-Pale-Cyan);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+.footer-section .footer .logo img{
+    width: 170px;
+    height: 25px;
+    color: var(--Very-Pale-Cyan);
+}
+.footer-section .footer .contact:not(:last-child){
+    margin: 30px 0 30px 0;
+}
+.footer-section .footer .contact-details{
+    display: flex;
+}
+.footer-section .footer .contact-details img{
+    width: 15px;
+    height: 22px;
+    margin: 5px 40px 0 0;
+}
+.footer-section .footer .mobile img,
+.footer-section .footer .email img{
+    margin-right: 35px;
+}
+.footer-section .footer .link li{
+    padding-bottom: 30px;
+}
+.footer-section .footer .link a:hover{
+    text-decoration: underline;
+    }
+.footer-section .footer .about{
+    margin-top: 70px;
+}
+.footer-section .footer .social-media{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.footer-section .footer .social-media a{
+    margin: 0 10px 25px 0;
+    width: 30px;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer-section .footer .social-media a:hover{
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+.footer-section .footer .footer-copy{
+    display: flex;
+    justify-content: center;
+}
+.footer-section .footer .footer-copy p{
+    font-size: 0.8rem;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* ----------------------------Desktop--------------------------------------- */
+@media(min-width:1200px){
+    body{
+        font-size: 1.125rem;
+    }
+    p{
+        font-size: 1.125rem;
+    }
+    button{
+        font-size: 1.25rem;
+        cursor: pointer;
+    }
+    .hero-section .hero-header{
+        /* margin: 50px 80px 70px; */
+        padding: 50px 80px 70px;
+    }
+    .hero-section .hero-header .hero-logo{
+        height: 32px;
+        width: 200px;
+    }
+    .hero-section .hero{
+        flex-direction: row;
+        margin: 0 80px 0;
+        padding-bottom: 70px;
+    }
+    .hero-section .hero-header .hero-header-btn{
+        height: 50px;
+        width: 200px;
+    }
+    .hero-section .hero .hero-img img{
+        width: 680px;
+        height: 490px;
+        margin-left: 75px;
+    }
+    .hero-section .hero .hero-desc{
+        text-align: left;  
+        margin: 100px 0 0 0;
+        padding: 0;
+    }
+    .hero-section .hero .hero-desc h1{
+        font-size: 2.5rem;
+        margin: 0 auto 45px;
+    }
+    .hero-section .hero .hero-desc .hero-desc-btn{
+        width: 280px;
+        height: 60px;
+    }
+    /* Card Section */
+    .cards-section{
+        padding-top: 160px;
+        padding-bottom: 110px;
+    }
+    .cards-section .card{
+        flex-direction: row-reverse;
+        margin: 40px 100px; 
+        text-align: left;
+        padding: 0 40px 0 120px;
+    }
+    .cards-section .card:nth-child(even){
+        flex-direction: row;
+    }
+    .cards-section .card .card-img img{
+        width: 440px;
+        height: 330px;
+        margin: 55px 0;
+    }
+    .cards-section .card.card-1 .card-desc,
+    .cards-section .card.card-3 .card-desc{
+        padding: 165px 180px 0 0;
+    }
+    .cards-section .card.card-2 .card-desc{
+        padding: 165px 0 0 180px;
+    }
+    /* Commi section */
+    .commi-section .commi{
+        height: 280px;
+        margin: 0 320px -90px;
+        padding-top: 80px; 
+    }
+    .commi-section .commi .commi-btn{
+        width: 400px;
+        height: 80px;
+        margin-bottom: 50px;  
+    }
+    /* Footer Section */
+    .footer{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+        padding: 0 0 0 120px;
+    }
+    .footer-section .footer .logo{
+        grid-area: 1/1/2/5;
+        margin-bottom: 45px;
+    }
+    .footer-section .footer .logo img{
+        width: 245px;
+        height: 45px;
+    }
+    .footer-section .footer .contacts .contact-details{
+        margin: 0;
+    }
+    .footer-section .footer .contacts{
+        grid-area: 2/1/3/2;
+        margin-right: 80px;
+    }
+    .footer-section .footer .about{
+        grid-area: 2/2/3/3;
+        margin: 0;
+    }
+    .footer-section .footer .career{
+        grid-area: 2/3/3/4;
+    }
+    .footer-section .footer .social-media{
+        grid-area: 2/4/3/5;
+        margin: 0 0 auto 0;
+        padding: 0;
+        justify-content: start;
+    }
+    .footer-section .footer .social-media a{
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin-right: 15px;
+    }
+    .footer-section .footer .footer-copy{
+        grid-area: 3/4/4/5;
+        justify-content: start;
+    }
+    .footer-section .footer .footer-copy p{
+        font-size: 0.7rem;
+    }
+}
